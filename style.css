@@ -1,0 +1,264 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Syne", sans-serif;
+}
+
+.logo img {
+  width: 80px;
+  height: 50px;
+  padding-right: 20px;
+}
+
+.gap {
+  margin-top: 40px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 3.75rem;
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  background-color: rgb(0, 0, 0, 0.5);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px); /* Safari support */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #f1f3f4;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.img1 img {
+  height: 100px;
+  width: 100px;
+  align-items: center;
+}
+
+.img1 {
+  border: 1px solid;
+  color: #6bffafa3;
+  border-radius: 2rem;
+  padding: 0.5rem 1.25rem;
+  height: 7rem;
+  margin: 38px;
+  border-width: 1px;
+  width: 350px;
+  margin: auto;
+}
+
+.but {
+  background-color: #6bffaf26;
+  border: 1px solid #6bffaf40;
+  border-radius: 14px;
+  height: 40px;
+  width: 140px;
+  font-size: 20px; 
+  align-items: center;
+  display:flex;
+  padding-left: 10px;
+}
+
+.but a {
+   color: #6bffafa3;
+   text-decoration: none;
+}
+
+.subimg {
+  height: 200px;
+  width: 400px;
+}
+
+.main {
+  text-align: center;
+  /* background-image: url(./bgimg.jpg); */
+  background-size: 100% 100%;
+  height: 710px;
+  background-color: #000000;
+}
+
+.main h1 {
+  font-size: 46px;
+  color: #ddffed;
+  padding-top: 140px;
+}
+.textcolorgreen {
+  color: #6bffaf;
+}
+
+.main p {
+  font-size: 20px;
+  color: #ffffff;
+  padding-top: 10px;
+  font-family: sans-serif;
+}
+
+.secondmain {
+  background-color: #ddffed;
+  background-size: 100% 100%;
+  height: 730px;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.secondmain h1 {
+  font-size: 32px;
+}
+
+.secondpara p {
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-top: 28px;
+  border-bottom: 1px solid #0000004d;
+  /* display: inline-block; */
+  padding-bottom: 28px;
+  padding-left: 16px;
+  width: 600px;
+}
+
+/* .secondpara {
+} */
+
+.but2 {
+  padding: 40px;
+  border: 2px solid;
+  border-radius: 60px;
+  background-color: #000000;
+  padding: 20px;
+  font-size: 15px;
+  width: 292px;
+  height: 20px;
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+
+.but2 a {
+  color: #6bffaf;
+  text-decoration: none;
+}
+
+.thirdmain {
+  background-color: #000000;
+  height: 700px;
+  text-align: center;
+}
+
+.thirdmain h2 {
+  color: #6bffaf;
+  font-weight: 600;
+  padding-top: 60px;
+  font-size: 24px;
+}
+
+.thirdmain a p {
+  color: #ffffff;
+  font-weight: 400;
+  padding-top: 400px;
+  text-decoration: underline;
+  text-decoration-color: #6bffaf;
+}
+
+.thirdmain p {
+  color: #ffffff;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.Automotive {
+  background-image: url(./car.webp);
+  height: 500px;
+  width: 400px;
+  background-size: cover;
+}
+
+.HomeDecor {
+  background-image: url(./deco.jpg);
+  height: 500px;
+  width: 400px;
+  background-size: cover;
+}
+
+.Fashion {
+  background-image: url(./fashion.jpg);
+  height: 500px;
+  width: 400px;
+  background-size: cover;
+}
+
+.More {
+  background-image: url(./exploremore.jpg);
+  height: 500px;
+  width: 400px;
+  background-size: cover;
+}
+
+.fourthmain {
+  background-color: #ddffed;
+  background-size: 100% 100%;
+  height: 700px;
+  justify-items: center;
+  padding-top: 100px;
+}
+
+.fourthmain h2 {
+  font-weight: 600;
+  padding-top: 60px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.fourthmain p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.but3 {
+  border: 2px solid;
+  border-radius: 60px;
+  background-color: #000000;
+  padding: 20px;
+  margin-top: 30px;
+  height: 18px;
+  width: 235px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: sans-serif;
+  align-items: center;
+  display: flex;
+}
+
+.but3 a {
+  color: #6bffaf;
+  text-decoration: none;
+}
