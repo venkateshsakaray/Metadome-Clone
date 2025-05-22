@@ -44,10 +44,10 @@ nav {
 .nav-links a {
   margin-left: 2rem;
   text-decoration: none;
-  color: #f1f3f4;
-  font-family: "Gilroy", sans-serif;
+  color: #ffffff;
+  font-family: sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .img1 img {
@@ -74,15 +74,15 @@ nav {
   border-radius: 14px;
   height: 40px;
   width: 140px;
-  font-size: 20px; 
+  font-size: 20px;
   align-items: center;
-  display:flex;
+  display: flex;
   padding-left: 10px;
 }
 
 .but a {
-   color: #6bffafa3;
-   text-decoration: none;
+  color: #6bffafa3;
+  text-decoration: none;
 }
 
 .subimg {
@@ -124,17 +124,24 @@ nav {
 
 .secondmain h1 {
   font-size: 32px;
+  padding-bottom: 20px;
 }
 
 .secondpara p {
   font-size: 20px;
   font-family: sans-serif;
-  padding-top: 28px;
+  padding-top: 26px;
   border-bottom: 1px solid #0000004d;
   /* display: inline-block; */
-  padding-bottom: 28px;
+  padding-bottom: 26px;
   padding-left: 16px;
-  width: 600px;
+  width: 580px;
+  font-weight: 600;
+  color: #0d2a1a;
+}
+
+.secondmain span {
+  color: #13af5b;
 }
 
 /* .secondpara {
@@ -146,8 +153,8 @@ nav {
   border-radius: 60px;
   background-color: #000000;
   padding: 20px;
-  font-size: 15px;
-  width: 292px;
+  font-size: 17px;
+  width: 340px;
   height: 20px;
   align-items: center;
   display: flex;
@@ -170,21 +177,21 @@ nav {
 .thirdmain h2 {
   color: #6bffaf;
   font-weight: 600;
-  padding-top: 60px;
+  padding-top: 140px;
   font-size: 24px;
 }
 
 .thirdmain a p {
   color: #ffffff;
   font-weight: 400;
-  padding-top: 400px;
+  padding-top: 500px;
   text-decoration: underline;
   text-decoration-color: #6bffaf;
 }
 
 .thirdmain p {
   color: #ffffff;
-  padding-top: 30px;
+  padding-top: 24px;
   font-size: 20px;
 }
 
@@ -195,29 +202,29 @@ nav {
 }
 
 .Automotive {
-  background-image: url(./car.webp);
-  height: 500px;
+  background-image: url(./Images/car.webp);
+  height: 580px;
   width: 400px;
   background-size: cover;
 }
 
 .HomeDecor {
-  background-image: url(./deco.jpg);
-  height: 500px;
+  background-image: url(./Images/deco.jpg);
+  height: 580px;
   width: 400px;
   background-size: cover;
 }
 
 .Fashion {
-  background-image: url(./fashion.jpg);
-  height: 500px;
+  background-image: url(./Images/fashion.jpg);
+  height: 580px;
   width: 400px;
   background-size: cover;
 }
 
 .More {
-  background-image: url(./exploremore.jpg);
-  height: 500px;
+  background-image: url(./Images/exploremore.jpg);
+  height: 580px;
   width: 400px;
   background-size: cover;
 }
@@ -225,9 +232,9 @@ nav {
 .fourthmain {
   background-color: #ddffed;
   background-size: 100% 100%;
-  height: 700px;
+  height: 1000px;
   justify-items: center;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 .fourthmain h2 {
@@ -261,4 +268,80 @@ nav {
 .but3 a {
   color: #6bffaf;
   text-decoration: none;
+}
+
+.gwagon {
+  background-image: url(./Images/blackcar.jpg);
+  height: 400px;
+  width: 800px;
+  background-size: cover;
+  padding-top: 360px;
+  text-align: center;
+  margin: 40px;
+}
+
+.gwagon a {
+  color: #6bffaf;
+  text-decoration: none;
+}
+
+.fifthmain {
+  background-color: #000000;
+  background-size: 100% 100%;
+  height: 1000px;
+  justify-items: center;
+  color: #ffffff;
+  padding-top: 122px;
+}
+
+.fifthmain h1 {
+  font-size: 32px;
+}
+
+.fifthmain span {
+  text-align: center;
+  display: block;
+}
+
+.bike {
+  background-image: url(./Images/orange\ bike.jpeg);
+  background-size: cover;
+  height: 500px;
+  width: 748px;
+  margin: 60px;
+}
+
+.bike a {
+  text-decoration: underline;
+  text-decoration-color: #6bffaf;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 100px;
+  font-weight: 200;
+}
+
+.but4 {
+  border: 2px solid;
+  border-radius: 60px;
+  background-color: white;
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.but4 a {
+  text-decoration: none;
+  color: #000000;
+  align-items: center;
+  display: flex;
+  padding: 8px;
+  padding-left: 16px;
+  font-weight: 600;
+}
+
+
+.sixth{
+  background-color: #ddffed;
+  height: 500px;
 }
