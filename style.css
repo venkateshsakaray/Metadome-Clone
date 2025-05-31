@@ -148,7 +148,6 @@ nav {
 } */
 
 .but2 {
-  padding: 40px;
   border: 2px solid;
   border-radius: 60px;
   background-color: #000000;
@@ -340,8 +339,65 @@ nav {
   font-weight: 600;
 }
 
-
-.sixth{
+.sixth {
   background-color: #ddffed;
-  height: 500px;
+  height: 530px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sixth h1 {
+  font-size: 32px;
+  padding-left: 185px;
+  padding-top: 20px;
+}
+
+.sixth p {
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-left: 185px;
+  padding-top: 25px;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+.sixth span {
+  color: #13af5b;
+}
+
+.but5 {
+  border: 2px solid;
+  border-radius: 20px;
+  background-color: #000000;
+  width: 235px;
+  height: 40px;
+  font-size: 16px;
+  align-items: center;
+  display: flex;
+  margin: -14px;
+  margin-left: 190px;
+  font-weight: bold;
+}
+
+.but5 a {
+  text-decoration: none;
+  color: #6bffaf;
+  padding: 11px;
+}
+
+.sixth img {
+  height: 340px;
+  width: 600px;
+  margin-right: 190px;
+  margin-top: 90px;
+  border-radius: 30px;
+}
+
+.seventh {
+  background-color: #000000;
+  height: 1000px;
 }
