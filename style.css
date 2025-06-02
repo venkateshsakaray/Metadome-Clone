@@ -401,3 +401,17 @@ nav {
   background-color: #000000;
   height: 1000px;
 }
+
+.seventh h1 {
+  color: #ffffff;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 32px;
+}
+.seventh p {
+  color: #ffffff;
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 20px;
+  font-size: 20px;
+}
