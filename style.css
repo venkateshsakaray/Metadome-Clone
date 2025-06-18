@@ -354,6 +354,13 @@ nav {
 
 .fifthmain h1 {
   font-size: 32px;
+  #d2d2d2
+}
+
+.fifthmain p{
+  font-size: 18px;
+  margin-top: 20px;
+  #d2d2d2
 }
 
 .fifthmain span {
@@ -361,42 +368,36 @@ nav {
   display: block;
 }
 
+.butlm{
+margin-top: 20px;
+}
+
+.butlm a{
+  background-color: #ffffff;
+color: #000;
+border: 2px solid;
+border-radius: 20px;
+display: flex;
+height: 40px;
+width: 135px;
+text-decoration: none;
+font-size: 16px;
+align-items: center;
+padding-left: 18px;
+font-weight: 600;
+}
+
 .bike iframe {
   background-size: cover;
-  height: 500px;
-  width: 748px;
+  height: 450px;
+  width: 700px;
   margin: 60px;
 }
 
-.bike a {
-  text-decoration: underline;
-  text-decoration-color: #6bffaf;
-  color: #ffffff;
-  text-align: center;
-  display: block;
-  padding: 100px;
-  font-weight: 200;
-}
-
-.but4 {
+/* .iframeclass{
   border: 2px solid;
-  border-radius: 60px;
-  background-color: white;
-  width: 200px;
-  height: 40px;
-  font-size: 18px;
-}
-
-.but4 a {
-  text-decoration: none;
-  color: #000000;
-  align-items: center;
-  display: flex;
-  padding: 8px;
-  padding-left: 16px;
-  font-weight: 600;
-}
-
+  border-radius: 20px;
+} */
 .sixth {
   background-color: #ddffed;
   height: 530px;
